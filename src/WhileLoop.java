@@ -1,22 +1,18 @@
-import java.util.Scanner;
-
+/*
+* a program that checks whether a number is even or odd in a given range
+* */
 
 public class WhileLoop {
-    Scanner sc = new Scanner(System.in);
-
-    void showHello() {
-        String choice;
-        System.out.println("For hello type 'h', anything else to stop");
-        choice = sc.next();
-        while ("h".equals(choice)) {
-            System.out.println("Hello");
-            System.out.println("For hello type 'h', anything else to stop");
-            choice = sc.next();
-        }
-    }
-
     public static void main(String[] args) {
-        WhileLoop obj = new WhileLoop();
-        obj.showHello();
+        int number = 1;
+
+        while (number <= 10) {
+            if (number % 2 == 0) {
+                System.out.println(number + " is even");
+            } else {
+                System.out.println(number + " is odd");
+            }
+            number++;
+        }
     }
 }

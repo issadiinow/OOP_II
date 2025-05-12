@@ -1,3 +1,4 @@
+package CodeChallenge3;
 /*
 * a program that checks whether a number is even or odd in a given range
 * */

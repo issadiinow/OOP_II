@@ -1,3 +1,4 @@
+package CodeChallenge5;
 /*
 * Prompts user to enter 2 numbers
 * Calculates sum, average, difference, product and division

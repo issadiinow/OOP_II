@@ -1,3 +1,4 @@
+package CodeChallenge4;
 import java.util.Scanner;
 
 public class ControlStructures {

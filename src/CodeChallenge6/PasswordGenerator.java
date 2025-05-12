@@ -1,8 +1,9 @@
+package CodeChallenge6;
 /**
  * Simple password generator using Java's Random class
  */
 import java.util.Random;
-import java.util.Arrays;
+// import java.util.Arrays;
 
 
 public class PasswordGenerator {

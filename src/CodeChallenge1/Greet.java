@@ -1,3 +1,4 @@
+package CodeChallenge1;
 /*
 * Program that requests user for input i.e. their name
 * Combines the greeting and the user's name
